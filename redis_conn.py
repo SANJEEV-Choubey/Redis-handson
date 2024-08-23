@@ -25,15 +25,15 @@ def conn():
         #     decode_responses=True,
         #     db=0,
         #     username='default',
-        #     password='PwFElb'
+        #     password='xxxxxxx'
         #     )
         # parsed = urlparse(connection_string)
-        # connection_string='rediss://admin:databasesforredis@ed8a9748-ad54-4361-90ee-ec4585d659df.bn5hbied0ao9rn2ced1g.databases.appdomain.cloud:31604/0'
+        # connection_string='rediss://admin:xxxxxxxxx@ed8a9748-ad54-4361-90ee-ec4585d659df.xxxxxxxxxxxx.databases.appdomain.cloud:31604/0'
         # parsed = urlparse(connection_string)
         # r = redis.StrictRedis(
         #     host="rediss://skc-redis62new.cbm2prkd0olp4tad867g.dev.databases.appdomain.cloud",
         #     port="31030",
-        #     password="JFPFcZ",
+        #     password="xxxx",
         #     #username="default",
         #     db=0,
         #     ssl=True,
@@ -41,8 +41,8 @@ def conn():
         #     #tlsAllowInvalidCertificates=True,
         #     ssl_ca_certs='/Users/sanjeevchoubey/go/src/github.ibm.com/SANJEEV-Choubey/Redis-handson/ca-cert.crt',
         #     decode_responses=True)
-        #connection_string = 'rediss://admin:databasesforredis@ed8a9748-ad54-4361-90ee-ec4585d659df.bn5hbied0ao9rn2ced1g.databases.appdomain.cloud:31604/0',
-        # password='redisfordatabases',
+        #connection_string = 'rediss://admin:xxxx@ed8a9748-ad54-4361-90ee-ec4585d659df.bn5hbied0ao9rn2ced1g.databases.appdomain.cloud:31604/0',
+        # password='xxxxxxxxxx',
         #parsed = urlparse(connection_string)
         r = redis.StrictRedis(
             host='e957bedd-59dc-4ca1-9efd-4b15aa65b0a0.bn5hbied0ao9rn2ced1g.databases.appdomain.cloud',
