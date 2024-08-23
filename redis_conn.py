@@ -4,12 +4,12 @@ import redis
 from urllib.parse import urlparse
 import time
 user='admin'
-password='redisfordatabases'
+password='xxxxxxxx'
 hostname='e957bedd-59dc-4ca1-9efd-4b15aa65b0a0.bn5hbied0ao9rn2ced1g.databases.appdomain.cloud'
 port='31484'
 ssl_ca_certs='/Users/sanjeevchoubey/Downloads/preproduction-skc'
 
-password1='redisfordatabases'
+password1='xxxxxxxxx'
 hostname1='ed8a9748-ad54-4361-90ee-ec4585d659df.bn5hbied0ao9rn2ced1g.databases.appdomain.cloud'
 port1= '31604'
 ssl_ca_certs1='/Users/sanjeevchoubey/Downloads/preproduction-skc1'

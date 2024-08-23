@@ -66,7 +66,7 @@ def create_dashboard(info):
 
 if __name__ == "__main__":
     # Modify Redis connection string as needed, For simplicity and demo, it has been added here
-    redis_conn_str = 'rediss://ibm_cloud_dc5af8d9_80ce_4a67_b3da_185ec8d49e60:a19703f40f02e07a4dc364d69c420523d29e8e8fc14fb58665d719aaa310a0d9@c3834e0d-be16-43f2-9bed-158a371eb3ea.ckol8aqd0p52cs1p0cog.dev.databases.appdomain.cloud:30837/0'
+    redis_conn_str = 'rediss://ibm_cloud_dc5af8d9_80ce_4a67_b3da_185ec8d49e60:xxxxxxxxxx@c3834e0d-be16-43f2-9bed-158a371eb3ea.ckol8aqd0p52cs1p0cog.dev.databases.appdomain.cloud:30837/0'
     
     # Create a connection pool
     redis_pool = redis.ConnectionPool.from_url(redis_conn_str, ssl_ca_certs="/Users/sanjeevchoubey/Downloads/15ec077f-064a-4eb3-a95c-edf1d9905001")
