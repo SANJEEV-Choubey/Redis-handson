@@ -1,0 +1,17 @@
+{
+    "name": "my-redis-dashboard",
+    "version": "1.0.0",
+    "description": "A Node.js application to fetch Redis info and create a dashboard visualization.",
+    "main": "redis-dashboard.js",
+    "scripts": {
+      "start": "node redis-dashboard.js"
+    },
+    "dependencies": {
+      "redis": "^4.0.0",
+      "node-redis-pool": "^1.0.0",
+      "chartjs-node-canvas": "^3.0.0"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+  }
+  
