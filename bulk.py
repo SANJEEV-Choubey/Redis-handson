@@ -12,8 +12,8 @@ def gen_redis_proto(*cmd):
         proto += arg+"\r\n"
     return proto
 
-# Looping over the range of 1000000
-for n in range(1000000):
+# Looping over the range of 50331671 to generate 1.5 gb of data
+for n in range(50331671):
     # Writing to stdout the Redis protocol for the SET command with the given key and value
     sys.stdout.write(gen_redis_proto("SET", f"Key{n}", f"Value{n}"))
 
