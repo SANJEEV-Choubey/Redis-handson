@@ -5,7 +5,7 @@ echo "Copying Python scripts to Redis instances..."
 
 # Copy Python scripts to both Redis instances
 for pod in c-$ID-m-0 c-$ID-m-1; do
-    for script in bulk.py large_size.py large_ds.py; do
+    for script in bulk.py large_size.py large_ds.py large_file.py; do
         kubectl cp /Users/sanjeevchoubey/go/src/github.com/SANJEEV-Choubey/Redis-handson/$script $pod:/tmp/$script -c mgmt
         if [[ $? -ne 0 ]]; then
             echo "Error: Failed to copy $script to $pod."
@@ -42,7 +42,7 @@ kubectl exec c-$ID-m-0 -c mgmt -- /bin/bash <<EOF
         exit 1
     fi
 
-    for script in /tmp/bulk.py /tmp/large_size.py /tmp/large_ds.py; do
+    for script in /tmp/bulk.py /tmp/large_size.py /tmp/large_ds.py /tmp/large_file.py; do
         echo "Running \$(basename \$script) with Redis credentials..."
         python \$script | redis-cli --user "\$REDIS_USER" --pass "\$REDIS_PASSWORD" --pipe
         if [[ \$? -ne 0 ]]; then
