@@ -7,7 +7,7 @@ const fs = require('fs');
 const pool = new RedisPool({
     name: 'redisPool',
     redis,
-    url: 'rediss://ibm_cloud_dc5af8d9_80ce_4a67_b3da_185ec8d49e60:a19703f40f02e07a4dc364d69c420523d29e8e8fc14fb58665d719aaa310a0d9@c3834e0d-be16-43f2-9bed-158a371eb3ea.ckol8aqd0p52cs1p0cog.dev.databases.appdomain.cloud:30837/0',
+    url: 'rediss://ibm_cloud_dc5af8d9_80ce_4a67_b3da_185ec8d49e60:xxxxxxxxxxxxxx@c3834e0d-be16-43f2-9bed-158a371eb3ea.ckol8aqd0p52cs1p0cog.dev.databases.appdomain.cloud:30837/0',
     ssl: {
         ca: fs.readFileSync("/Users/sanjeevchoubey/Downloads/15ec077f-064a-4eb3-a95c-edf1d9905001")
     },
