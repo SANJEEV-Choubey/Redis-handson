@@ -1,0 +1,22 @@
+{
+  "source": {
+    "host": "YOUR_REDIS_GEN1_HOST",
+    "port": 31731,
+    "username": "YOUR_REDIS_USERNAME",
+    "password": "YOUR_REDIS_PASSWORD",
+    "ssl": true,
+    "ssl_verify": false,
+    "ssl_ca_cert": null
+  },
+  "target": {
+    "host": "YOUR_VALKEY_HOST",
+    "port": 6379,
+    "username": "YOUR_VALKEY_USERNAME",
+    "password": "YOUR_VALKEY_PASSWORD",
+    "ssl": true,
+    "ssl_verify": true,
+    "ssl_ca_cert": null
+  },
+  "batch_size": 1000,
+  "debug": false
+}

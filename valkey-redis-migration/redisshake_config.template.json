@@ -1,0 +1,14 @@
+{
+  "source": {
+    "host": "YOUR_REDIS_GEN1_HOST",
+    "port": 31731,
+    "username": "YOUR_REDIS_USERNAME",
+    "password": "YOUR_REDIS_PASSWORD"
+  },
+  "target": {
+    "host": "YOUR_VALKEY_HOST",
+    "port": 6379,
+    "username": "YOUR_VALKEY_USERNAME",
+    "password": "YOUR_VALKEY_PASSWORD"
+  }
+}
